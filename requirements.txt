@@ -97,7 +97,8 @@ widgetsnbextension==3.5.1
 wrapt==1.12.1
 xgboost==1.2.1
 yarg==0.1.9
-MarkupSafe==2.1.3
+markupsafe==2.0.1
+
 numpy==1.19.5
 pandas==1.1.5
 requests==2.24.0
