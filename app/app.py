@@ -196,3 +196,6 @@ def fert_recommend():
 # ===============================================================================================
 # Gunicorn expects the app to be globally available
 # No need to use `if __name__ == '__main__':` when running with Gunicorn
+
+if __name__ == '__main__':
+    app.run(debug=False)
