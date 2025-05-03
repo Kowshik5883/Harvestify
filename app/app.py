@@ -3,8 +3,8 @@ from flask import Flask, render_template, request, redirect
 from markupsafe import Markup
 import numpy as np
 import pandas as pd
-from utils.disease import disease_dic
-from utils.fertilizer import fertilizer_dic
+from app.utils.disease import disease_dic
+from app.utils.fertilizer import fertilizer_dic
 import requests
 import config
 import pickle
@@ -13,6 +13,7 @@ import torch
 from torchvision import transforms
 from PIL import Image
 from utils.model import ResNet9
+
 
 # ==============================================================================================
 
